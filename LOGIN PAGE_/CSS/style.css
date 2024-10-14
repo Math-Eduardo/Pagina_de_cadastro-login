@@ -1,0 +1,39 @@
+body{
+    background-image: url(/IMG/loja2_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(10,23,55,0.1);
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16rem;
+  }
+
+
+.form_body div input{
+    width: 400px;
+    box-shadow: 10px 10px 10px;
+}
+
+.form_body a{
+    justify-self: end;
+    text-decoration: none;
+    color: aqua;
+}
+
+.form_body a:hover{
+    color: rgb(250, 225, 0);
+}
+
+.form_body div input:hover{
+    background-color: aliceblue;
+
+}
+#login_btn{
+    margin-top: 20px;
+    padding-top: 5px;
+}
+
